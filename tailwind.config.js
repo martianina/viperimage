@@ -325,16 +325,16 @@ module.exports = {
         900: '#1d1d1d',
       },
       brand: {
-        50: '#FFF7F2',    // Pale Peach
-        100: '#FFEFE6',
-        200: '#FFD6C2',
-        300: '#FFB899',
-        400: '#FF9466',
-        500: '#FF6F33',   // Deep Orange
-        600: '#E65F2D',
-        700: '#CC4F26',
-        800: '#993B1D',
-        900: '#662813',   // Russet
+        50: '#fefce8',    // Pale Yellow
+        100: '#fef9c3',
+        200: '#fef08a',
+        300: '#fde047',
+        400: '#fbbf24',   // Yellow-400
+        500: '#f59e0b',   // Yellow-500
+        600: '#d97706',   // Yellow-600
+        700: '#b45309',   // Yellow-700
+        800: '#854d0e',   // Yellow-800
+        900: '#713f12',   // Yellow-900
       },
       horizonGreen: {
         50: '#E1FFF4',
@@ -411,6 +411,18 @@ module.exports = {
         700: '#02044A',
         800: '#190793',
         900: '#11047A',
+      },
+      accent: {
+        50: '#fefce8',
+        100: '#fef9c3',
+        200: '#fef08a',
+        300: '#fde047',
+        400: '#fbbf24',  // Yellow-400
+        500: '#f59e0b',  // Yellow-500
+        600: '#d97706',  // Yellow-600
+        700: '#b45309',  // Yellow-700
+        800: '#854d0e',  // Yellow-800
+        900: '#713f12',  // Yellow-900
       },
       shadow: {
         100: 'var(--shadow-100)',
