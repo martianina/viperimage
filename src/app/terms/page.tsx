@@ -9,8 +9,8 @@ const TermsOfServicePage = () => {
         {/* Header */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Terms of Service</h1>
-          <p className="text-lg text-gray-600">MC1R Data Foundation</p>
-          <p className="text-sm text-gray-500">Last updated: July 2025</p>
+          <p className="text-lg text-gray-600">The Viper Guy, LLC</p>
+          <p className="text-sm text-gray-500">Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</p>
         </div>
 
         {/* Introduction */}
@@ -21,7 +21,7 @@ const TermsOfServicePage = () => {
           </h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p>
-              These Terms of Service ("Terms") govern your use of the MC1R Data Foundation website and services. By accessing or using our website, participating in our research studies, or using any of our services, you agree to be bound by these Terms.
+              These Terms of Service ("Terms") govern your use of The Viper Guy, LLC website and services at viperguy.com. By accessing or using our website, using our Dodge Viper marketplace services, or using any of our services, you agree to be bound by these Terms.
             </p>
             <p>
               If you do not agree to these Terms, please do not use our services. We reserve the right to modify these Terms at any time, and such modifications will be effective immediately upon posting.
@@ -36,19 +36,19 @@ const TermsOfServicePage = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="bg-brand-50 p-4 rounded-lg">
                 <h3 className="font-semibold text-gray-900 mb-2">"Service"</h3>
-                <p className="text-sm text-gray-700">Refers to our website, research studies, and all related services provided by MC1R Data Foundation.</p>
+                <p className="text-sm text-gray-700">Refers to our website, Dodge Viper marketplace, and all related services provided by The Viper Guy, LLC.</p>
               </div>
               <div className="bg-brand-50 p-4 rounded-lg">
                 <h3 className="font-semibold text-gray-900 mb-2">"User"</h3>
-                <p className="text-sm text-gray-700">Refers to any individual who accesses or uses our Service, including research participants.</p>
+                <p className="text-sm text-gray-700">Refers to any individual who accesses or uses our Service, including marketplace users.</p>
               </div>
               <div className="bg-brand-50 p-4 rounded-lg">
                 <h3 className="font-semibold text-gray-900 mb-2">"Content"</h3>
                 <p className="text-sm text-gray-700">Refers to all information, data, text, graphics, and materials available on our Service.</p>
               </div>
               <div className="bg-brand-50 p-4 rounded-lg">
-                <h3 className="font-semibold text-gray-900 mb-2">"Research Data"</h3>
-                <p className="text-sm text-gray-700">Refers to information collected through our research studies and surveys.</p>
+                <h3 className="font-semibold text-gray-900 mb-2">"Marketplace Data"</h3>
+                <p className="text-sm text-gray-700">Refers to information collected through our marketplace listings and user interactions.</p>
               </div>
             </div>
           </div>
@@ -62,11 +62,11 @@ const TermsOfServicePage = () => {
               <h3 className="text-xl font-semibold text-gray-900 mb-3">3.1 Permitted Uses</h3>
               <p className="text-gray-700 mb-3">You may use our Service for the following purposes:</p>
               <ul className="list-disc list-inside text-gray-700 space-y-2 ml-4">
-                <li>Accessing information about our research studies</li>
-                <li>Participating in research studies (if eligible)</li>
-                <li>Reading educational content about sun protection and MC1R genetics</li>
+                <li>Browsing and searching Dodge Viper listings</li>
+                <li>Creating and managing marketplace listings</li>
+                <li>Reading educational content about Dodge Vipers</li>
                 <li>Contacting us with questions or feedback</li>
-                <li>Accessing research results and publications</li>
+                <li>Accessing market data and pricing information</li>
               </ul>
             </div>
             
@@ -304,8 +304,9 @@ const TermsOfServicePage = () => {
             </p>
             <div className="bg-brand-50 p-4 rounded-lg">
               <p className="text-gray-700">
-                <strong>Email:</strong> legal@gingerscience.org<br />
-                <strong>Address:</strong> MC1R Data Foundation<br />
+                <strong>Email:</strong> legal@viperguy.com<br />
+                <strong>Company:</strong> The Viper Guy, LLC<br />
+                <strong>Website:</strong> <a href="https://viperguy.com" className="text-brand-600 hover:text-brand-700">viperguy.com</a><br />
                 <strong>Subject Line:</strong> Terms of Service Inquiry
               </p>
             </div>

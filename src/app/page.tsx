@@ -2,6 +2,8 @@ import React from 'react'
 import { FilterPanel } from '../components/FilterPanel'
 import { ListingCard } from '../components/ListingCard'
 import { supabase, mockListings } from '../utils/supabaseClient'
+import { Navbar } from '../components/Navbar'
+import { Footer } from '../components/Footer'
 
 export default async function HomePage() {
   let listings = []
@@ -26,7 +28,9 @@ export default async function HomePage() {
   }
 
   return (
-    <main className="min-h-screen bg-primary-50">
+    <>
+      <Navbar />
+      <main className="min-h-screen bg-primary-50">
       {/* Hero Section */}
       <div className="relative bg-gradient-to-br from-primary-900 via-primary-800 to-primary-700 text-white py-24 overflow-hidden">
         {/* Background Pattern */}
@@ -157,7 +161,7 @@ export default async function HomePage() {
           <FilterPanel />
           
           <div className="mt-12 mb-8">
-            <p className="text-primary-800 text-center">
+            <p className="text-gray-800 text-center">
               {error ? (
                 <span className="text-warning-500">Failed to load listings.</span>
               ) : listings && listings.length > 0 ? (
@@ -234,6 +238,8 @@ export default async function HomePage() {
           </div>
         </div>
       </div>
+      <Footer />
     </main>
+    </>
   )
 } 

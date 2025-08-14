@@ -9,8 +9,8 @@ const PrivacyPolicyPage = () => {
         {/* Header */}
         <div className="bg-white rounded-lg shadow-sm p-8 mb-8">
           <h1 className="text-3xl font-bold text-gray-900 mb-4">Privacy Policy</h1>
-          <p className="text-lg text-gray-600">MC1R Data Foundation</p>
-          <p className="text-sm text-gray-500">Last updated: July 2025</p>
+          <p className="text-lg text-gray-600">The Viper Guy, LLC</p>
+          <p className="text-sm text-gray-500">Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', year: 'numeric' })}</p>
         </div>
 
         {/* Introduction */}
@@ -21,10 +21,10 @@ const PrivacyPolicyPage = () => {
           </h2>
           <div className="prose prose-lg max-w-none text-gray-700 space-y-4">
             <p>
-              The MC1R Data Foundation ("we," "our," or "us") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website, participate in our research studies, or interact with our services.
+              The Viper Guy, LLC ("we," "our," or "us") is committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website at viperguy.com, use our Dodge Viper marketplace services, or interact with our platform.
             </p>
             <p>
-              This policy is designed to comply with the General Data Protection Regulation (GDPR) and other applicable data protection laws. By using our services, you consent to the data practices described in this policy.
+              This policy is designed to comply with applicable data protection laws. By using our services, you consent to the data practices described in this policy.
             </p>
           </div>
         </div>
@@ -250,8 +250,9 @@ const PrivacyPolicyPage = () => {
             </p>
             <div className="bg-brand-50 p-4 rounded-lg">
               <p className="text-gray-700">
-                <strong>Email:</strong> privacy@gingerscience.org<br />
-                <strong>Address:</strong> MC1R Data Foundation<br />
+                <strong>Email:</strong> privacy@viperguy.com<br />
+                <strong>Company:</strong> The Viper Guy, LLC<br />
+                <strong>Website:</strong> <a href="https://viperguy.com" className="text-brand-600 hover:text-brand-700">viperguy.com</a><br />
                 <strong>Subject Line:</strong> Privacy Policy Inquiry
               </p>
             </div>
